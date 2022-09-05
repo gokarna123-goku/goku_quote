@@ -3,7 +3,7 @@
 Still Working on it. The developing Goku Quote Website has not been completely done.........
 
 <div>
-  <h3>Wait For a While........</h3>
+  <h3>Wait For a While........</h3> <br/>
 </div>
 
 =======================For Desktop Size =============================
@@ -13,6 +13,7 @@ Still Working on it. The developing Goku Quote Website has not been completely d
 =======================For Mobile Size =============================
 <div>
   <h1>I already said that it is still on developing phase.....</h1>
+  <br/> <br/> <br/> <br/>
 </div>
 
 
