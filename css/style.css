@@ -1,0 +1,88 @@
+
+/* roboto fonts import link */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+/*  */
+/* *{
+    fon
+} */
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.explore-btn{
+    background: #1c0950;
+    color: #fff;
+    border-radius: 0px !important;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+    transition: 0.78s;
+}
+.explore-btn:hover{
+    background: none;
+    /* border: 2px solid #1C3879; */
+    border: 2px solid #1c0950;
+    color: #fff;
+}
+
+#bg1{
+    background-image: url('../images/bg-father-day.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 93.6vh;
+    background-size: cover;
+}
+
+#bg2{
+    background-image: url('../images/homepage.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 93.6vh;
+    background-size: cover;
+}
+
+#bg3{
+    background-image: url('../images/bg-couple.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 93.6vh;
+    background-size: cover;
+}
+
+.title{
+    font-size: 6.25rem;
+    font-family: 'Roboto', sans-serif;
+    line-height: 6.0rem;
+}
+
+.quote{
+    font-size: 1.75rem;
+    /* color: #3F3F3F; */
+    color: #000;
+    max-width: 600px;
+}
+
+.carousel .carousel-control-prev{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #1c0950;
+    opacity: 1;
+    top: 50%;
+    left: 2%;
+}
+
+.carousel .carousel-control-next{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #1c0950;
+    opacity: 1;
+    top: 50%;
+    right: 2%;
+}
