@@ -29,6 +29,28 @@
     box-shadow: none;
 }
 
+.generate-btn{
+    /* background: #1c0950; */
+    border: 2px solid #1c0950;
+    color: #1c0950;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+}
+    
+.generate-btn:hover{
+    background: #1c0950;
+    color: #fff;
+    /* border: none; */
+}
+
+.nav-link{
+    font-size: 1.25rem;
+    color: #3f3f3f;
+    font-family: 'Roboto', sans-serif;
+}
+
 .explore-btn{
     background: #1c0950;
     color: #fff;
@@ -191,10 +213,6 @@
     height: 60vh;
 }
 
-/* .lovable-couple small-img{
-    height: 35vh;
-} */
-
 .lovable-title{
     color: #3f3f3f;
     font-size: 2.713rem;
@@ -211,6 +229,63 @@
     letter-spacing: 0.98px;
     font-family: 'Roboto', sans-serif;
 }
+
+/*  */
+
+.fatherday-box{
+    margin-top: 10rem;
+    width: 100%;
+    height: 42vh;
+    position: relative;
+}
+
+.fatherday{
+    position: absolute;
+    top: -8.0rem;
+    /* right: 7.99rem; */
+    left: 8%;
+}
+
+.fatherday img{
+    height: 60.0vh;
+}
+
+.fatherday-title{
+    color: #3f3f3f;
+    font-size: 2.713rem;
+    font-weight: 700;
+    line-height: 3.62rem;
+    letter-spacing: 2.5px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.fatherday-text{
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 0.98px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote-text{
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* generate button */
+.new-quote-btn{
+    background: #1c0950;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.new-quote-btn:hover{
+    color: #fff;
+}
+
 
 
 /*  */
@@ -350,17 +425,6 @@
         margin-top: 2.5rem;
     }
 
-    /* .lovable-couple{
-        position: absolute;
-        top: -6.53rem;
-        left: -20rem;
-        z-index: 999;
-    }
-
-    .lovable-couple small-img{
-        height: 35vh;
-    } */
-
     .lovable-title{
         color: #3f3f3f;
         font-size: 1.75rem;
@@ -375,5 +439,24 @@
         line-height: 1.78rem;
         letter-spacing: 0.98px;
         font-family: 'Roboto', sans-serif;
+    }
+
+    .fatherday-box{
+        margin-top: 2.5rem;
+    }
+
+    .fatherday-title{
+        color: #3f3f3f;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        letter-spacing: 2.0px;
+    }
+    
+    .fatherday-text{
+        font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 1.78rem;
+        letter-spacing: 0.98px;
     }
 }
