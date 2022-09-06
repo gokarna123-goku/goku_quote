@@ -45,10 +45,28 @@
     /* border: none; */
 }
 
+.navbar-brand{
+    font-size: 1.78rem;
+    color: #1c0950;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-brand:hover{
+    color: #1c0950;
+}
+
 .nav-link{
     font-size: 1.25rem;
     color: #3f3f3f;
+    font-weight: 600;
+    letter-spacing: 1px;
     font-family: 'Roboto', sans-serif;
+}
+
+.nav-link:hover{
+    color: #1c0950;
 }
 
 .explore-btn{
@@ -96,6 +114,26 @@
     background-size: cover;
 }
 
+.quote-box{
+    border: 2px solid #6c757d;
+    border-radius: 2px;
+    transition: 0.68s;
+}
+
+.quote-box:hover{
+    box-shadow: 0px 4px 10px #1c0950;
+}
+
+.quote-box:hover .quote-title{
+    color: #1c0950;
+    transition: 0.78s;
+}
+
+.quote-box:hover .quote-count{
+    color: #3f3f3f;
+    transition: 0.78s;
+}
+
 .title{
     font-size: 6.25rem;
     font-family: 'Roboto', sans-serif;
@@ -110,8 +148,8 @@
 }
 
 .carousel .carousel-control-prev{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background: #1c0950;
     opacity: 1;
@@ -120,8 +158,8 @@
 }
 
 .carousel .carousel-control-next{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     background: #1c0950;
     opacity: 1;
@@ -152,6 +190,7 @@
 
 .quote-count{
     font-size: 1.13rem;
+    color: #6c757d;
     font-weight: 700;
     letter-spacing: 1.3px;
     font-family: 'Roboto', sans-serif;
@@ -286,6 +325,45 @@
     color: #fff;
 }
 
+/*  */
+.load-more-btn{
+    background: #1c0950;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-align: center;
+    align-items: center;
+}
+
+.load-more-btn:hover{
+    color: #fff;
+}
+/*  */
+
+.quote-section{
+    background: #f8f9fa;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.quote-section:hover{
+    background: #eee;
+}
+
+.quote-data{
+    font-size: 1.125rem;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: normal !important;
+}
+
+.fa-clipboard{
+    border: 2px solid #e6e6e6;
+}
+
+.fa-clipboard:hover{
+    border: 2px solid #c5c5c5;
+}
 
 
 /*  */
@@ -459,4 +537,11 @@
         line-height: 1.78rem;
         letter-spacing: 0.98px;
     }
+
+    .quote-data{
+        font-size: 1.0rem;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0.3px;
+    }
+
 }

@@ -13,7 +13,7 @@
     <!--  -->
     <link rel="stylesheet" href="css/style.css">
     <!--  -->
-    <title>Generate Quote</title>
+    <title>Generate Quote | Goku</title>
 </head>
 
 <body>
@@ -32,16 +32,18 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item me-2">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="#">About</a>
+                                <a class="nav-link" href="about.html">About</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="#">Quotes</a>
+                                <a class="nav-link" href="quotes.html">Quotes</a>
                             </li>
                         </ul>
-                        <a href="generate-quote.html" class="btn btn-sm generate-btn px-3 ms-3">Generate Quote</a>
+                        <a href="generate-quote.html" class="btn btn-sm generate-btn px-3 ms-lg-3 ms-md-0 ms-sm-0 ms-0">
+                            Generate Quote
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -53,16 +55,20 @@
     <div class="container-fluid px-0 mx-0 bg-light py-5">
         <div class="container col-md-5 py-5">
             <h1 class="text fatherday-title mb-5 border-bottom border-2">Generate Quotes Yourself</h1>
-            <p class="text text-dark text-center quote-text mb-5">
+            <p class="text text-dark text-center quote-text mb-5" id="generated-quote">
                 Joke Text Goes In Here
             </p>
+            <div class="d-flex justify-content-end align-items-center">
+                <button class="btn px-4" id="button1" onclick="CopyToClipboard('generated-quote')">
+                    <i class="fa fa-clipboard bg-white rounded-circle p-2"></i>
+                </button>
+            </div>
             <hr>
             <div class="d-flex justify-content-center align-items-center">
                 <button class="btn new-quote-btn px-4">Generate Quote</button>
             </div>
         </div>
     </div>
-
 
 
     <!--  -->
@@ -76,6 +82,34 @@
 
     <!--  -->
     <script src="js/generate-quote.js"></script>
+    <!--  -->
+
+    <!--  -->
+    <script>
+        function CopyToClipboard(containerid) {
+            if (window.getSelection) {
+                if (window.getSelection().empty) { // Chrome
+                    window.getSelection().empty();
+                } else if (window.getSelection().removeAllRanges) { // Firefox
+                    window.getSelection().removeAllRanges();
+                }
+            } else if (document.selection) { // IE?
+                document.selection.empty();
+            }
+
+            if (document.selection) {
+                var range = document.body.createTextRange();
+                range.moveToElementText(document.getElementById(containerid));
+                range.select().createTextRange();
+                document.execCommand("copy");
+            } else if (window.getSelection) {
+                var range = document.createRange();
+                range.selectNode(document.getElementById(containerid));
+                window.getSelection().addRange(range);
+                document.execCommand("copy");
+            }
+        }
+    </script>
     <!--  -->
 </body>
 
