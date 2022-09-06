@@ -2,6 +2,10 @@
 /* roboto fonts import link */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
 /*  */
+
+/* Playfair display fonts family import link */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap');
+/*  */
 /* *{
     fon
 } */
@@ -10,10 +14,25 @@
     display: none;
 }
 
+.btn{
+    border-radius: 0px !important;
+    /* background: #1c0950; */
+}
+
+.btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+
+.form-control:focus, .form-control:active:focus, .form-control.active:focus{
+    outline: none;
+    box-shadow: none;
+}
+
 .explore-btn{
     background: #1c0950;
     color: #fff;
-    border-radius: 0px !important;
+    /* border-radius: 0px !important; */
     font-weight: 600;
     font-size: 1.1rem;
     text-align: center;
@@ -27,6 +46,7 @@
     color: #fff;
 }
 
+/*  */
 #bg1{
     background-image: url('../images/bg-father-day.jpeg');
     background-position: center;
@@ -85,4 +105,275 @@
     opacity: 1;
     top: 50%;
     right: 2%;
+}
+
+/*  */
+.explore-title{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #3f3f3f;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.explore-desc{
+    font-size: 1.375rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*  */
+.quote-logo{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 3px;
+}
+
+.quote-count{
+    font-size: 1.13rem;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.quote-title{
+    font-size: 1.125rem;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+    color: #3f3f3f;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.quote-action{
+    font-size: 0.938rem;
+    color: #6c757d;
+}
+
+.vl {
+    border-left: 2px solid #6c757d;
+    height: 18px;
+}
+
+/*  */
+.alone-img{
+    background-image: linear-gradient(to right, #000 2%, #000 1.5%, #000 1%,  transparent), url('../images/alone1.jpg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 73.49vh;
+    background-size: cover;
+}
+
+.alone-title{
+    font-size: 4.0rem;
+    color: #e6e6e6;
+    font-weight: 700;
+    line-height: 6.8rem;
+    letter-spacing: 2.5px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+/*  */
+.lovable-box{
+    margin-top: 10rem;
+    width: 100%;
+    height: 42vh;
+    position: relative;
+}
+
+.lovable-couple{
+    position: absolute;
+    top: -8.53rem;
+    /* right: 7.99rem; */
+    right: 0px;
+}
+
+.lovable-couple img{
+    height: 60vh;
+}
+
+/* .lovable-couple small-img{
+    height: 35vh;
+} */
+
+.lovable-title{
+    color: #3f3f3f;
+    font-size: 2.713rem;
+    font-weight: 700;
+    line-height: 3.62rem;
+    letter-spacing: 2.5px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.lovable-text{
+    font-size: 1.5rem;
+    font-weight: 200;
+    line-height: 2rem;
+    letter-spacing: 0.98px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*  */
+@media screen and (max-width: 768px) {
+    #bg1{
+        background-position: right;
+        height: 93.0vh;
+    }
+    
+    #bg2{
+        background-position: right;
+        height: 93.0vh;
+    }
+    
+    #bg3{
+        background-position: right;
+        height: 93.0vh;
+    }
+
+    .title{
+        font-size: 5.0rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 5.0rem;
+    }
+
+    .quote{
+        /* margin-left: 10px; */
+        font-size: 1.5rem;    
+        border-radius: 2px;
+        backdrop-filter: blur(7px);
+        background: rgba(255,255,255,0.1);
+        box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+        border: 1px solid rgba(255,255,255,0.5);
+        border-right: 1px solid rgba(255,255,255,0.2);
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding: 5px 10px;
+        color: #fff;
+        max-width: 600px;
+    }
+    
+    .carousel .carousel-control-prev{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background: #1c0950;
+        opacity: 1;
+        top: 52%;
+        left: 2%;
+    }
+
+    .carousel .carousel-control-next{
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        background: #1c0950;
+        opacity: 1;
+        top: 52%;
+        right: 2%;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+    #bg1{
+        background-position: right;
+        height: 93.0vh;
+    }
+    
+    #bg2{
+        background-position: right;
+        height: 93.0vh;
+    }
+    
+    #bg3{
+        background-position: right;
+        height: 93.0vh;
+    }
+
+    .title{
+        font-size: 4.0rem;
+        font-family: 'Roboto', sans-serif;
+        line-height: 4.54rem;
+    }
+
+    .quote{
+        font-size: 1.38rem;    
+        border-radius: 2px;
+        backdrop-filter: blur(7px);
+        background: rgba(255,255,255,0.1);
+        box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+        border: 1px solid rgba(255,255,255,0.5);
+        border-right: 1px solid rgba(255,255,255,0.2);
+        border-bottom: 1px solid rgba(255,255,255,0.2);
+        padding: 5px 10px;
+        color: #fff;
+        max-width: 600px;
+    }
+    
+    .carousel .carousel-control-prev{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background: #1c0950;
+        opacity: 1;
+        top: 52%;
+        left: 2%;
+    }
+
+    .carousel .carousel-control-next{
+        height: 25px;
+        width: 25px;
+        border-radius: 50%;
+        background: #1c0950;
+        opacity: 1;
+        top: 52%;
+        right: 2%;
+    }
+
+    .explore-title{
+        font-size: 1.89rem;
+        font-weight: 600;
+        color: #3f3f3f;
+        font-family: 'Playfair Display', sans-serif;
+    }
+
+    .alone-img{
+        background-position: center;
+    }
+
+    .alone-title{
+        font-size: 3.0rem;
+        line-height: 4.5rem;
+        letter-spacing: 2.5px;
+    }
+
+    .lovable-box{
+        margin-top: 2.5rem;
+    }
+
+    /* .lovable-couple{
+        position: absolute;
+        top: -6.53rem;
+        left: -20rem;
+        z-index: 999;
+    }
+
+    .lovable-couple small-img{
+        height: 35vh;
+    } */
+
+    .lovable-title{
+        color: #3f3f3f;
+        font-size: 1.75rem;
+        font-weight: 700;
+        line-height: 2.5rem;
+        letter-spacing: 2.0px;
+    }
+    
+    .lovable-text{
+        font-size: 1.3rem;
+        font-weight: 200;
+        line-height: 1.78rem;
+        letter-spacing: 0.98px;
+        font-family: 'Roboto', sans-serif;
+    }
 }
