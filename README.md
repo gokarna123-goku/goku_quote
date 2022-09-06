@@ -1,25 +1,52 @@
 ﻿# goku_quote
 
-Still Working on it. The developing Goku Quote Website has not been completely done.........
 
 <div>
-  <h3>Wait For a While........</h3> <br/>
+  <h3>I think the project has been completed......</h3> <br/>
 </div>
 
 =======================For Desktop Size =============================
-![image](https://user-images.githubusercontent.com/70308228/188500735-5fabd834-71c9-4877-8431-8f068bf2c35e.png)
+<div>
+  <br/> 
+</div>
 
+![image](https://user-images.githubusercontent.com/70308228/188659443-cdb07192-f60a-4236-b247-aad95e7ad31b.png)
+
+<div>
+  <br/> <br/>
+  <h3> Collections of quotes. You can do your actions here.... </h3>
+</div>
+
+![image](https://user-images.githubusercontent.com/70308228/188660641-fbb9b09a-f474-476c-90d6-33a193429cfe.png)
+
+
+<div>
+  <br/> <br/> 
+</div>
 
 =======================For Mobile Size =============================
 <div>
-  <h1>I already said that it is still on developing phase.....</h1>
-  <br/> <br/> <br/> <br/>
+  <br/> 
 </div>
+
+
+![image](https://user-images.githubusercontent.com/70308228/188659795-5a6ec66d-fd56-4b3b-a247-4de1e14f8803.png)
+
+
+<div>
+  <br/> <br/> <br/> <br/> 
+  <h3> Generate quotes yourself and enjoy </h3>
+  <br/> <br/> 
+</div>
+
+![image](https://user-images.githubusercontent.com/70308228/188660293-2e15cafb-dbcf-4ae0-8e0a-854e8bc853e7.png)
+
 
 
 
 
 <div>
+<br/> <br/> <br/> <br/> <br/>
   <a href="https://github.com/gokarna123-goku" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/128/5968/5968866.png" alt="Goku github account icon" width="50px" height="50px" />
   </a> &nbsp; &nbsp; 
@@ -31,6 +58,9 @@ Still Working on it. The developing Goku Quote Website has not been completely d
   </a> &nbsp; &nbsp; 
   <a href="https://www.behance.net/gokarnaadhikari" target="_blank">
     <img src="https://cdn-icons-png.flaticon.com/128/3536/3536806.png" alt="Goku behance account icon" width="50px" height="50px" />
+  </a> &nbsp; &nbsp; 
+   <a href="https://www.linkedin.com/in/gokarna-a-583b0b245/" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/128/3991/3991775.png" alt="Goku linkedin account icon" width="50px" height="50px" />
   </a> &nbsp; &nbsp; 
   
 </div>
